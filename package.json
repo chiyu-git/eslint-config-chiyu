@@ -1,0 +1,28 @@
+{
+  "name": "@chiyu-git/eslint-config-chiyu",
+  "description": "eslint config format by chiyu",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiyu-git/eslint-config-chiyu"
+  },
+  "scripts": {
+    "release": "lerna publish --conventional-commits --yes",
+    "bootstrap": "lerna bootstrap"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "chiyu-git",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

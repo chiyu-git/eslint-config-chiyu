@@ -1,0 +1,26 @@
+{
+  "name": "@chiyu-git/eslint-config-react",
+  "version": "1.0.4",
+  "description": "eslint config chiyu react",
+  "author": "chiyu <873705939@qq.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "@chiyu-git/eslint-config-basic": "^1.0.3",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.25.3",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}
