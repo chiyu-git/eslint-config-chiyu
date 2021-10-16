@@ -93,6 +93,8 @@ module.exports = {
         'no-unused-expressions': WARN,
         'no-plusplus': OFF,
         'no-console': OFF,
+        // 我就是喜欢使用for of
+        'no-restricted-syntax': [OFF, 'iterators/generators'],
 
         /**
          * 代码格式相关的规则，代替prettier
@@ -125,7 +127,23 @@ module.exports = {
             },
         ],
         // typescript 相关代码格式字段
+        '@typescript-eslint/indent': [ERROR, 4],
         '@typescript-eslint/type-annotation-spacing': [ERROR, { after: true }],
+        '@typescript-eslint/member-delimiter-style': [
+            ERROR,
+            {
+                multiline: {
+                    delimiter: 'semi',
+                    requireLast: true,
+                },
+                singleline: {
+                    delimiter: 'semi',
+                    requireLast: true,
+                },
+                multilineDetection: 'brackets',
+            }
+        ],
+        
     },
     // node 工具链都是js文件，针对这些js文件单独配置部分 rule
     overrides: [{
