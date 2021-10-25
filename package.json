@@ -1,10 +1,10 @@
 {
-  "name": "@chiyu-git/eslint-config-chiyu",
-  "description": "eslint config format by chiyu",
+  "name": "@chiyu-git/linter-config",
+  "description": "eslint & stylelint config format by chiyu",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chiyu-git/eslint-config-chiyu"
+    "url": "git+https://github.com/chiyu-git/linter-config-chiyu"
   },
   "scripts": {
     "release": "lerna publish --conventional-commits --yes",

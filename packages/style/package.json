@@ -1,0 +1,36 @@
+{
+  "name": "@chiyu-git/stylelint-config-basic",
+  "version": "1.0.0",
+  "description": "stylelint config format by chiyu",
+  "keywords": [
+    "stylelint",
+    "config"
+  ],
+  "author": "chiyu-git <pangjing02@baidu.com>",
+  "homepage": "https://github.com/chiyu-git/linter-config-chiyu#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiyu-git/eslint-config-chiyu.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/chiyu-git/eslint-config-chiyu/issues"
+  },
+  "peerDependencies": {
+    "stylelint": "^14.0.0",
+    "stylelint-config-hudochenkov": "^6.0.1",
+    "stylelint-config-standard": "^23.0.0",
+    "stylelint-order": "^5.0.0"
+  }
+}

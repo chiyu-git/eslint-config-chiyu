@@ -44,6 +44,8 @@ module.exports = {
          */
         'react/jsx-indent': [ERROR, 4],
         'react/jsx-indent-props': [ERROR, 4],
+        'react/jsx-equals-spacing': [ERROR, "always"],
+        'react/jsx-curly-spacing': [ERROR, { 'when': 'always', 'children': true }],
         'jsx-quotes': [ERROR, 'prefer-single'],
     },
 };
