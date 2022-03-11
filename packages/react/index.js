@@ -45,7 +45,12 @@ module.exports = {
         'react/jsx-indent': [ERROR, 4],
         'react/jsx-indent-props': [ERROR, 4],
         'react/jsx-equals-spacing': [ERROR, "always"],
-        'react/jsx-curly-spacing': [ERROR, { 'when': 'always', 'children': true }],
+        'react/jsx-curly-spacing': [ERROR, { 'when': 'never', 'children': true }],
         'jsx-quotes': [ERROR, 'prefer-single'],
+        'react/jsx-no-bind': [2, {
+            'allowFunctions': true,
+        }],
+        // 强制使用 react 的 propTypes 相关 API 去指定默认值，已经落后于时代了，使用 js 默认参数即可
+        'react/require-default-props': OFF,
     },
 };

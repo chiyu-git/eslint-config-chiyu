@@ -16,7 +16,7 @@
     "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {
-    "@chiyu-git/eslint-config-basic": "^1.0.4",
+    "@chiyu-git/eslint-config-basic": "^1.0.5",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",

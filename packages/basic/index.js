@@ -71,7 +71,9 @@ module.exports = {
         // In almost every case, it can be replaced by .map, .filter, or a for-of loop.
         // It's only somewhat useful in the rare case of summing up numbers, which is allowed by default.
         'unicorn/no-array-reduce': OFF,
-
+        /**
+         * typescript 语法相关字段
+         */
         '@typescript-eslint/no-useless-constructor': ERROR,
         '@typescript-eslint/no-empty-function': WARN,
         '@typescript-eslint/no-var-requires': OFF,
@@ -83,6 +85,9 @@ module.exports = {
         // js 的 no-shadow 规则会导致 eslint 误识别 enum 类型
         'no-shadow': OFF,
         '@typescript-eslint/no-shadow': ERROR,
+        // 关闭 js 的检查，仅使用 ts 的以允许类方法重载
+        'lines-between-class-members': OFF,
+        '@typescript-eslint/lines-between-class-members': [ERROR, 'always', { 'exceptAfterOverload': true }],
 
         // TODO: 这个error好烦，先关闭了
         'class-methods-use-this': OFF,
@@ -126,7 +131,9 @@ module.exports = {
                 'maxEOF': 1,
             },
         ],
-        // typescript 相关代码格式字段
+        /**
+         * typescript 代码格式相关字段
+         */
         '@typescript-eslint/indent': [ERROR, 4],
         '@typescript-eslint/type-annotation-spacing': [ERROR, { after: true }],
         '@typescript-eslint/member-delimiter-style': [
@@ -152,6 +159,7 @@ module.exports = {
             'unicorn/prefer-module': OFF,
             'no-shadow': ERROR,
             'no-use-before-define': ERROR,
+            'lines-between-class-members': ERROR,
         },
     }],
 };

@@ -1,0 +1,41 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "chiyu-git <873705939@qq.com>",
+  "homepage": "https://github.com/chiyu-git/eslint-config-chiyu#readme",
+  "license": "ISC",
+  "main": "index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiyu-git/eslint-config-chiyu.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "lint": "npm run lint-eslint && npm run lint-stylelint",
+    "lint-eslint": "eslint -c .eslintrc.js --ext .ts,.tsx,.js src",
+    "lint-stylelint": "stylelint --config .stylelintrc.js src/**/*.{less,css,scss}"
+  },
+  "bugs": {
+    "url": "https://github.com/chiyu-git/eslint-config-chiyu/issues"
+  },
+  "devDependencies": {
+    "@chiyu-git/eslint-config-basic": "^1.0.5",
+    "@chiyu-git/stylelint-config-basic": "^1.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-unicorn": "^35.0.0",
+    "stylelint-config-hudochenkov": "^6.0.1",
+    "stylelint-config-standard": "^23.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.0.0"
+  }
+}

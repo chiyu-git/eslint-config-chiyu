@@ -1,6 +1,6 @@
 module.exports = {
     extends: ['stylelint-config-standard', 'stylelint-config-hudochenkov/full'],
-    plugins: ['stylelint-order'],
+    plugins: ['stylelint-order', 'stylelint-declaration-block-no-ignored-properties'],
     rules: {
         // 'plugin/declaration-block-no-ignored-properties': true,
         'comment-empty-line-before': null,
