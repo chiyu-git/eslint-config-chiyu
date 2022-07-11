@@ -1,6 +1,6 @@
 {
   "name": "@chiyu-git/eslint-config-basic",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "eslint config chiyu basic",
   "author": "chiyu <873705939@qq.com>",
   "homepage": "",
@@ -16,16 +16,13 @@
     "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.30.0",
-    "@typescript-eslint/parser": "^4.30.0",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-import-resolver-typescript": "^2.5.0",
-    "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-unicorn": "^35.0.0"
-  },
-  "dependencies": {
-    "eslint": "^7.32.0"
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-typescript": "^3.2.5",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-unicorn": "^43.0.1"
   }
 }

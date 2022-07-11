@@ -28,11 +28,11 @@
     "url": "https://github.com/chiyu-git/eslint-config-chiyu/issues"
   },
   "peerDependencies": {
-    "stylelint": "^14.5.3",
-    "stylelint-config-hudochenkov": "^6.0.1",
-    "stylelint-config-standard": "^25.0.0",
+    "stylelint": "^14.9.1",
+    "stylelint-config-hudochenkov": "^7.0.1",
+    "stylelint-config-standard": "^26.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.5.0",
     "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^4.0.0"
+    "stylelint-scss": "^4.3.0"
   }
 }

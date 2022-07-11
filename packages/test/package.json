@@ -27,7 +27,7 @@
     "url": "https://github.com/chiyu-git/eslint-config-chiyu/issues"
   },
   "devDependencies": {
-    "@chiyu-git/eslint-config-basic": "^1.0.6",
+    "@chiyu-git/eslint-config-basic": "^1.0.7",
     "@chiyu-git/stylelint-config-basic": "^1.0.3",
     "@typescript-eslint/eslint-plugin": "^4.30.0",
     "eslint-config-airbnb-base": "^14.2.1",
