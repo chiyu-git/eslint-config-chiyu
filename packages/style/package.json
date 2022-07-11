@@ -1,6 +1,6 @@
 {
   "name": "@chiyu-git/stylelint-config-basic",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "stylelint config format by chiyu",
   "keywords": [
     "stylelint",

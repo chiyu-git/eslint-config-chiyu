@@ -1,6 +1,6 @@
 {
   "name": "test",
-  "version": "independent",
+  "version": null,
   "description": "> TODO: description",
   "author": "chiyu-git <873705939@qq.com>",
   "homepage": "https://github.com/chiyu-git/eslint-config-chiyu#readme",
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@chiyu-git/eslint-config-basic": "^1.0.7",
-    "@chiyu-git/stylelint-config-basic": "^1.0.3",
+    "@chiyu-git/stylelint-config-basic": "^1.0.4",
     "@typescript-eslint/eslint-plugin": "^4.30.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-promise": "^5.1.0",
